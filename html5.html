@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+             <title>My first webpage</title>
+             <link rel="Stylesheet" href="index.css">
+
+             </head>
+             <body>
+
+             <h2>javascript Event handling   </h2>
+             <p>this example to use the addEventlistner() method.</p>
+          
+
+             <button id="myBtn">click to try</button>
+
+
+
+
+
+
+
+
+                <script>
+            var a=document.getElementById("myBtn"); a.addEventListener("click" ,myfunction); a.addEventListener("click",myfunction);
+            a.addEventListener("click", someOtherFunction);
+            
+            function myfunction() {
+                alert ("Hello Everyone!");
+            }
+              
+            function someOtherFunction(){
+                alert ("This function was also executed!");     
+            }
+                
+            </script>
+            
+
+
+        </body>
+     </html>
